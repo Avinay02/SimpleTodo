@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-size: cover;
+  height: 100vh;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 600px;
+  min-height: 150px;
+  background-color: #ffffff;
+}
+.main-heading {
+  color: orange;
+  font-size: 40px;
+}
+.todos-list{
+  height:150px;
+  width:500px;
+}
